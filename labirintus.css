@@ -1,0 +1,73 @@
+div.kulso{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    border: medium black solid;
+    border-radius: 0.5em;
+    background-color: cadetblue;
+    padding: 2em;
+    width: max-content;
+}
+
+td:not([class]):hover::after{
+    content: "\1F401";
+}
+
+td.cheese:after{
+    content: "\1F9C0";
+    background-color: blanchedalmond;
+}
+
+td.cheese:hover::after{
+    content: "\1F42D";
+}
+
+td.trap:after{
+    content: "\1FAA4";
+}
+
+td.rat::after{
+    content: "\1F400";
+}
+
+td.trap:hover::after, td.rat:hover::after{
+    content: "\1F480";
+}
+
+td{
+    background-color: blanchedalmond;
+    width: 2em;
+    height: 2em;
+}
+
+td.wall{
+    background-color: dimgrey;
+    width: 2em;
+    height: 2em;
+}
+
+table.play{
+    border-collapse: collapse;
+    width: auto;
+    border: thin black solid;
+}
+
+table.last{
+    background-color: darkcyan;
+    width: 100%;
+    padding: 2em;
+    border: thin solid black;
+}
+
+td.button{
+    background-color: darkseagreen;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    border: thin black solid;
+    border-radius: 0.25em;
+}
+
+div.middle{
+    text-align: center;
+}
